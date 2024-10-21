@@ -1,0 +1,1692 @@
+*{
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+body{
+    background: url(images/puppies-ccca1b0776bb47c0b61b2e8a52b9dd92.jpg) center/cover no-repeat;
+    height: 500px;
+}
+.menu{
+    padding-top: 20px;
+}
+
+.menu .items{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.menu .items .nav ul{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-right: 40px;
+}
+
+.menu .items .nav ul .menus{
+    /* position: relative; */
+    list-style: none;
+}
+
+.menu .items .nav ul  a{
+    font-size: 50px;
+    padding: 0 8px 0px 8px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    outline: none;
+}
+.menu .items .logo{
+    padding-left: 60px;
+    cursor: pointer;
+}
+
+
+.container{
+    margin: 20%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 40px;
+}
+
+.container .content h1{
+    font-size: 45px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.container .content p{
+    /* max-width: 550px; */
+    margin-bottom: 20px;
+    margin-top: 5px;
+    color: #fff;
+}
+
+.container .content a{
+    padding-left: 30px;
+    padding-right: 30px;
+    background: #fff;
+    border-radius: 0;
+    color: #222;
+    border: 1px solid transparent;
+    text-decoration: none;
+    padding: 10px 6px 10px 6px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container .content a:hover{
+    background: black;
+    color: #fff;
+}
+.container .images{
+    /* max-width: 960px; */
+}
+
+.container .images .row{
+    /* width: 40%; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+   /* position: absolute;
+   top: 220px; */
+}
+.gees{
+    display: flex;
+    flex-direction: row;
+    background: rgb(247, 246, 246);
+    padding: 30px;
+    width: 80%;
+    gap: 20%;
+    border-radius: 3px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.gees h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.gees button{
+    background: rgb(246, 175, 43);
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.gees button:hover{
+    background-color: white;
+    color: #fab700;
+    border-color: #fab700;
+    border-style: solid;
+}
+
+.row2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+
+
+.row2 .text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row2 .text h1{
+    margin-top: 20px;
+    color: rgb(34, 33, 33);
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 27px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+.row2 .text p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 55px;
+}
+
+.row2 .text .lorem{
+    color: rgb(94, 92, 92);
+    width: 90%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.row2 .text button{
+    background: orange;
+    color: white;
+    border: none;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.row2 .text button:hover{
+    background: white;
+    color: orange;
+    border-style: solid;
+    transition: all 0.3s ease 0s;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 10%;
+    margin-top: 20%;
+}
+
+.video h1{
+    margin-top: 18px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.video p{
+    margin-top: 20px;
+    width: 70%;
+    color: rgb(101, 99, 99);
+}
+
+.video p span{
+    text-align: center;
+    margin-left: 30%;
+    color: rgb(101, 99, 99);
+}
+
+.comment .pro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pet{
+    margin-left: 8%;
+    width: 80%;
+    margin-top: 16%;
+    background: rgb(242, 242, 242);
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+
+.pet h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.pet p{
+    color: rgb(107, 105, 105);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.comment{
+    /* position: absolute; */
+    display: flex;
+    flex-direction: row;
+    /* top: 420%; */
+    padding-top: 30px;
+    background: rgb(242, 242, 242);
+    padding-bottom: 70px;
+   
+}
+
+
+.comment .rows1{
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+    flex-direction: row;
+
+}
+
+.comment .rows1 .col{
+    /* flex: 0 0 25%; */
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 20px;
+}
+
+.comment .rows1 .col .process a{
+    text-decoration: none;
+    outline: 0;
+    transition: all 0.3s ease 0s;
+    color: black;
+}
+
+.comment .rows1 .col .process a h4{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.2em;
+    font-weight: 600;
+}
+
+.comment .rows1 .col .process p{
+    color: rgb(81, 80, 80);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.title{
+    text-align: center;
+    margin-top: 65px;
+    margin-bottom: 10%;
+}
+
+.title h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 37px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+.title p{
+    color: rgb(107, 105, 105);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.aise{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.aise .test{
+    border-radius: 10px;
+    background: #f9f9ff;
+    border: 1px solid #eee;
+    transition: all 0.3s ease 0s;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    align-items: center;
+}
+
+.aise .test img{
+    vertical-align: middle;
+    border-style: none;
+}
+
+.aise .test p{
+    padding: 30px 0px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.aise .test h4{
+    transition: all 0,3s ease 0s;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #222222;
+    line-height: 1.2em;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 600;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(245, 199, 72);
+    padding-bottom: 200px;
+    padding-top: 200px;
+    margin-top: 80px;
+    
+}
+
+.bottom h1{
+    padding-right: 80px;
+    padding-left: 200px;
+    padding-bottom: 40px;
+    font-size: 40px;
+    color: rgb(48, 47, 47);
+}
+
+.bottom p{
+    padding-right: 80px;
+    padding-bottom: 50px;
+    text-align: center;
+    width: 80%;
+    padding-left: 10%;
+    color: #222;
+}
+
+.bottom .btn button{
+    margin-left: 40px;
+    background: white;
+    color: black;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    
+}
+
+.bottom .btn button:hover{
+    background-color: rgb(238, 177, 64);
+    color: white;
+    border-style: solid;
+}
+
+.footer-area{
+    background: #212121;
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: -270px;
+}
+
+.footer-area .container{
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer-area .container .pr{
+    padding-bottom: 80px;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: row;
+    margin-right: -15px;
+    margin-left: -15px;
+    
+}
+.footer-area .container .pr .list{
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.footer-area .container .pr .list .widget h6{
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 40px;
+    line-height: 1.2em;
+    font-family: "Poppins", sans-serif;
+}
+
+.footer-area .container .pr .list .widget p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.footer-area .container .pr .list .widget .rowg{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.footer-area .container .pr .list .widget .rowg .cols{
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-area .container .pr .list .widget .rowg .cols li{
+    margin-bottom: 12px;
+}
+.footer-area .container .pr .list .widget .rowg .cols li a{
+    color: #777777;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    outline: 0;
+}
+
+.footer-area .container .pr .list .widget .contact{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer-area .container .pr .list .widget .contact .flex{
+    flex-direction: row;
+    display: flex;
+}
+.footer-area .container .pr .list .widget .contact .flex .detail h4{
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 20px;
+    color: #fff;
+    line-height: 1.2em;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: "Poppins", sans-serif;
+}
+.footer-area .container .pr .list .widget .contact .flex .detail p{
+    margin-left: 20px;
+    margin-top: 8px;
+    margin-bottom: 1rem;
+}
+.footer-area .copy{
+    background-color: #23202e;
+    padding: 20px 0;
+}
+
+.footer-area .copy .texa{
+    max-width: 1140px;
+    /* width: 100%; */
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    /* margin-bottom: 10%; */
+}
+
+.footer-area .copy .texa .class{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-area .copy .texa .class .back{
+    color: #fff;
+    margin: 0;
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.footer-area .copy .texa .class .back span{
+    color: orange;
+}
+
+.footer-area .copy .texa .class .social{
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+    text-align: right;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;;
+}
+.footer-area .copy .texa .class .social a{
+    color: #777777;
+    margin-left: 20px;
+    text-decoration: none;
+    outline: 0;
+    transition: all 0.3s ease 0s;
+}
+.footer-area .copy .texa .class .social a:hover{
+    color: orange;
+}
+
+@media screen and (max-width:768px) {
+    .gees h1{
+        font-size: 20px;
+    }
+
+
+    .footer-area{
+        background: #1e1c27;
+        color: #777777;
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        margin-top: -120px;
+    }
+    
+    .footer-area .container{
+        margin-right: 4%;
+        margin-top: 0;
+    }
+    
+    .footer-area .container .pr{
+        margin-right: 20%;
+        
+    }
+
+    .footer-area .copy{
+        background-color: #23202e;
+        padding: 20px 0;
+       
+    }
+    
+    .footer-area .copy .texa{
+        margin-right: 10%;
+    }
+
+    
+.row2 .text h1{
+    font-size: 20px;
+}
+
+.row2 .text p{
+    font-size: 14px;
+}
+
+.video{
+    margin-left: 15%;
+    margin-top: 15%;
+}
+
+.video img{
+    width: 80%;
+}
+
+.comment .rows1 .col{
+    margin-left: 10px;
+}
+}
+
+@media screen and (max-width:375px){
+    .menu .items .nav ul{
+        margin-right: 10px;
+    }
+        
+    .menu .items .nav ul  a{
+        font-size: 50px;
+        padding: 0 4px 0px 8px;
+        font-size: 12px;
+    }
+    .menu .items .logo{
+        padding-left: 10px;
+        margin-bottom: 6px;
+    }
+
+    .gees{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background: rgb(255, 255, 255);
+        width: 80%;
+        row-gap: 20%;
+        border-radius: 3px;
+    }
+
+    .row2 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+    }
+    
+    .row2 .text h1{
+        margin-top: 20px;
+        color: rgb(34, 33, 33);
+        font-weight: 600;
+        text-transform: capitalize;
+        font-size: 15px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-bottom: 20px;
+    }
+    
+    .row2 .text p{
+        font-size: 12px;
+    }
+    
+    .row2 .text .lorem{
+        color: rgb(94, 92, 92);
+        /* width: 40%; */
+        margin-left: 40px;
+    }
+    
+    .row2 .text button{
+        background: orange;
+        color: white;
+        border: none;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-left: 20px;
+        padding-right: 20px;
+        cursor: pointer;
+    }
+    
+    .row2 .text button:hover{
+        background: white;
+        color: orange;
+        border-style: solid;
+        transition: all 0.3s ease 0s;
+    }
+
+    .video h1{
+        font-size: 15px;
+    }
+
+    .video p{
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .pet{
+        padding-left: 2px;
+        margin-top: 16%;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    
+    .pet h1{
+        font-size: 15px;
+    }
+
+    .comment{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .title h1{
+        font-size: 17px;
+    }
+    
+    
+    .title p{
+        font-size: 12px;
+    }
+
+    .aise{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .aise .test{
+        width: 80%;
+    }
+    
+   
+.bottom h1{
+    text-align: center;
+    padding-left: 70px;
+    padding-bottom: 40px;
+    font-size: 15px;
+    color: rgb(48, 47, 47);
+}
+    
+    .bottom p{
+        text-align: center;
+        padding-left: 70px;
+        font-size: 12px;
+        padding-right: 0px;
+        padding-left: 1%;
+    }
+    
+    .bottom .btn button{
+        font-size: 10px;
+        padding: 10px 14px;
+        margin-left: 10px;
+    }
+
+    .footer-area {
+        margin-top: -100px;
+    }
+
+    .footer-area .container .pr .list .widget h6{
+        font-size: 12px;
+        color: #fff;
+        margin-bottom: 40px;
+        line-height: 1.2em;
+        font-family: "Poppins", sans-serif;
+    }
+
+    .footer-area .container .pr{
+        display: flex;
+        flex-direction: column;       
+    }
+
+    .footer-area .container .pr .list{
+        margin-left: 30px;
+    }
+
+    .footer-area .container .pr .list .widget{
+        width: 200%;
+        font-size: 13px;
+    }
+
+    .footer-area .container .pr .list .widget .rowg{
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .footer-area .copy .texa .class .back{
+        font-size: 8px;
+    }
+
+    .footer-area .copy .texa .class .social{
+        padding-left: 5px;;
+    }
+    .footer-area .copy .texa .class .social a{
+        color: #777777;
+        margin-left: 2px;
+    }
+
+    .footer-area .container{
+        max-width: 1000px;
+        width: 85%;
+    }
+
+    .comment{
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        padding-right: 10px;
+        background: rgb(242, 242, 242);
+        padding-bottom: 70px;
+       
+    }
+    
+    
+.comment .rows1{
+    margin-left: -1px;
+    margin-right: -1px;
+
+}
+
+.comment .rows1 .col{
+    margin-right: 3px;
+}
+
+    
+.comment .rows1 .col .process a h4{
+    font-size: 15px;
+}
+
+.comment .rows1 .col .process p{
+    font-size: 12px;
+}
+
+
+}
+
+
+
+/* aboutus page begins here */
+
+.about{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 16%;
+    font-size: 30px;
+}
+
+.about p{
+    font-size: 17px;
+    letter-spacing: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 4%;
+    margin-top: 35%;
+    margin-bottom: 10%;
+}
+
+.video p{
+    margin-top: 20px;
+    width: 50%;
+    color: rgb(101, 99, 99);
+    text-align: center;
+}
+
+
+.gees{
+    display: flex;
+    flex-direction: row;
+    background: rgb(247, 246, 246);
+    padding: 30px;
+    width: 80%;
+    gap: 20%;
+    border-radius: 3px;
+    margin-left: 7%;
+    margin-bottom: 50px;
+    background-color: rgb(228, 219, 219);
+}
+
+
+.row2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+}
+
+.buys{
+    margin-top: 10%;
+    height: 300px;
+    padding-bottom: 8%;
+    padding-top: 8%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(238, 177, 64);
+}
+
+
+@media screen and (max-width:768px) {
+    .video{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-right: 10%;
+        margin-top: 45%;
+    }
+
+    .container{
+        margin: 10%;
+        margin-left: 10px;
+        margin-top: 150px;
+    }
+    
+    .container .content h1{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:375px) {
+
+    .about{
+        margin-top: 40%;
+    }
+    .about h1{
+        font-size: 25px;      
+    }
+    .about p{
+        font-size: 15px;
+    }
+
+    .video{
+        margin-top: 500px;
+    }
+
+    .video p{
+        margin-top: 20px;
+        width: 90%;
+        color: rgb(101, 99, 99);
+    }
+
+    .gees{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background: rgb(238, 236, 236);
+        width: 70%;
+        row-gap: 20%;
+        border-radius: 3px;
+    }
+    .gees h1{
+        font-size: 15px;
+        text-align: center;
+    }
+    .gees button{
+        margin-top: 10px;
+        padding: 8px 3px;
+        width: 60%;
+        margin-left: 50px;
+    }
+
+    
+    
+}
+
+/* aboutus page ends here */
+
+/* cats page begins here */
+
+.joe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* position: relative;
+    top: 500px; */
+    margin-top: 50%;
+}
+
+.joe .cats{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+
+
+.joe .cats .cat{
+    /* position: relative; */
+}
+
+.joe .cats .cat p{
+    /* position: absolute; */
+    bottom: 10%;
+    left: 8px;
+    font-size: 19px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.buys{
+    margin-top: 50%;
+    height: 300px;
+    padding-bottom: 8%;
+    padding-top: 8%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(238, 177, 64);
+}
+
+@media screen and (max-width:768px) {
+    .joe{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        /* width: 10%; */
+        margin-left: 40px;
+        margin-top: 45%;
+    }
+    .joe .cats{
+        display: flex;
+        flex-direction: column;
+        /* margin-left: 40px; */
+    }
+    
+    
+    
+    .joe .cats .cat{
+        /* position: relative; */
+        margin-left: 40px;
+    }
+    
+    .joe .cats .cat p{
+        /* position: absolute; */
+        /* bottom: 10%;
+        left: 8px; */
+        font-size: 19px;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+}
+
+
+@media screen and (max-width:375px) {
+    .joe{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 95%;
+        margin-left: 3px;
+    }
+    .joe .cats .cat img{
+        width: 90%;
+        text-align: center;
+        margin-left: 3px;
+    }
+}
+
+
+/* cats page ends here */
+
+/* dogs page begins here */
+
+.joe .cats .cat{
+    position: relative;
+}
+
+.joe .cats .cat p{
+    position: absolute;
+    bottom: 10%;
+    left: 8px;
+    font-size: 19px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.buys{
+    margin-top: 50%;
+    height: 300px;
+    padding-bottom: 8%;
+    padding-top: 8%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(238, 177, 64);
+}
+
+/* dogs page ends here */
+
+/* contact page begins here */
+
+.row4{
+    display: flex;
+    flex-wrap: wrap;
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    line-height: 1.625em;
+    margin-top: 30%;
+}
+
+.row4 .flex{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+    /* position: relative; */
+    width: 10%;
+    min-height: 1px;
+    /* padding-right: 15px;
+    padding-left: 15px; */
+    margin-left: 40px;
+}
+
+.row4 .flex .address{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    gap: 1px;
+}
+
+.row4 .flex .address .icon{
+    color: orange;
+}
+
+
+.row4 .flex .address .details h4{
+    font-weight: 300;
+    font-size: 25px;
+    margin-bottom: 5px;
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    line-height: 1.2em
+}
+
+.row4 .flex .address .details p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+
+.row4 .col8{
+    /* flex: 0 0 66.66667%; */
+    /* max-width: 66.66667%; */
+    /* position: relative; */
+    /* width: 100%; */
+    min-height: 1px;
+    padding-left: 7px;
+}
+
+.row4 .col8 .area3{
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    display: block;
+}
+
+.row4 .col8 .area3 .row20{
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.row4 .col8 .area3 .row20 .form5{
+    /* position: relative; */
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.row4 .col8 .area3 .row20 .form5 input{
+    border-radius: 0;
+    font-size: 12px;
+    padding-top: 15px;
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-bottom: 15px;
+    /* padding: 35px; */
+    margin-bottom: 20px;
+    display: block;
+    /* width: 100%; */
+    /* padding: 0.375rem 0.75rem; */
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.row4 .col8 .area3 .row20 .form6{
+    margin-bottom: 1rem;
+    flex: 0 0 50%;
+    max-width: 50%;
+    /* position: relative; */
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.row4 .col8 .area3 .row20 .form6 .mr{
+    height: 190px;
+    margin-top: 0px;
+    border-radius: 0;
+    font-size: 12px;
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    overflow: auto;
+    resize: vertical;
+}
+
+.row4 .col8 .area3 .between{
+    display: flex;
+    justify-content: space-between;
+    flex: 0 0 100%;
+    /* max-width: 100%; */
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    /* position: relative; */
+
+}
+
+.row4 .col8 .area3 .between button{
+    display: inline-block;
+    outline: none;
+    line-height: 40px;
+    padding: 0 30px;
+    font-size: .8em;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    border-radius: 20px;
+    color: #fff;
+    background: #fab700;
+    border: 1px solid transparent;
+    text-transform: none;
+    overflow: visible;
+}
+
+.row4 .col8 .area3 .between button:hover{
+    background-color: white;
+    color: #fab700;
+    border-color: #fab700;
+    border-style: solid;
+}
+
+
+.buys{
+    margin-top: 50%;
+    height: 300px;
+    padding-bottom: 8%;
+    padding-top: 8%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(238, 177, 64);
+} 
+
+@media screen and (max-width:768px) {
+    .row4{
+        margin-top: 40%;
+    }
+    
+    
+    .row4 .col8 .area3 .row20{
+       margin-left: 80px;
+       margin-top: 40px;
+    }
+
+    .row4 .col8 .area3 .between button{
+        margin-left: 80px;
+        margin-top: 30px;
+    } 
+}
+
+@media screen and (max-width:375px) {
+    .row4 .flex .address .details h4{
+        font-weight: 300;
+        font-size: 17px;
+    }
+
+    .row4 .flex{
+        display: flex;
+        flex-direction: column;
+        margin-left: 8%;
+        margin-top: 40%;
+    }
+    
+    .row4 .flex .address{
+        gap: 12px;
+        width: 200%;
+    }
+    
+    .row4 .flex .address .icon{
+        color: orange;
+    }
+    
+    
+    .row4 .flex .address .details p{
+        margin-top: 0;
+        margin-bottom: 1rem;
+        font-family: "Poppins", sans-serif;
+        font-size: 13px;
+    }
+    
+    .row4 .col8 .area3{
+        color: #777777;
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.625em;
+        display: block;
+    }
+    
+    .row4 .col8 .area3 .row20{
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        margin-right: -1px;
+        margin-left: -1px;
+    }
+    
+    .row4 .col8 .area3 .row20 .form5 input{
+        font-size: 11px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        margin-left: 40px;
+    }
+    
+    
+    .row4 .col8 .area3 .row20 .form6 .mr{
+        height: 90px;
+        width: 200%;
+        margin-left: 40px;
+    }
+
+    .row4 .col8 .area3 .between button{
+        margin-top: 10px;
+    }
+
+    .buys h1{
+        text-align: center;
+        margin-right: 30px;
+    }
+    
+}
+
+/* contact page ends here */
+
+/* volunteer pages begins here */
+
+.vol{
+    text-align: center;
+    margin-top: 30%;
+    /* position: relative; */
+    /* top: 400px; */
+}
+
+.vol h1{
+    font-size: 40px;
+    padding-bottom: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.vol p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(78, 76, 76);
+    font-size: 15px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    margin-right: 15px;
+}
+
+.row .vol2{
+    flex: 0 0 75%;
+    max-width: 75%;
+    /* position: relative; */
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.row .vol2 .group{
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.row .vol2 .group label{
+    color: #222;
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: .5rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+}
+
+.row .vol2 .group input{
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    margin-bottom: 30px;
+    font-family:  "Poppins", sans-serif;
+}
+
+.row .vol2 .form-group{
+    margin-bottom: 1rem;
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    margin-left: 2%;
+}
+
+.row .vol2 .form-group .bro{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.row .vol2 .form-group label{
+    color: #222;
+    font-weight: 500;
+    margin-bottom: .5rem;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.row .vol2 .form-group .form{
+    margin-bottom: 1rem;
+}
+.row .vol2 .form-group .form .form1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 0;
+    margin-right: 0.75rem;
+}
+
+.row .vol2 .form-group .form .form1 .check{
+    display: flex;
+    flex-direction: row;
+    color: #222;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.row .vol2 .form-group .form .form1 .check .inline-input{
+    position: static;
+    margin-top: 0;
+    margin-right: 0.3125rem;
+    margin-left: 0;
+}
+
+.row .vol2 .group4{
+    margin-bottom: 1rem;
+    margin-top: 30px;
+}
+
+.row .vol2 .group4 label{
+    color: #222;
+    font-weight: 500;
+    display: inline-block;
+    margin-bottom: .5rem;
+    font-size: 20px;
+}
+
+.row .vol2 .group4 .text{
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    overflow: auto;
+    resize: vertical;
+    font-size: 17px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.row .vol2 .group4 button{
+    background-color: #fab700;
+    line-height: 42px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid transparent;
+    color: #fff;
+    font-weight: 500;
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    float: right;
+   
+}
+
+.row .vol2 .group4 button:hover{
+    background-color: white;
+    color: #fab700;
+    border-color: #fab700;
+    border-style: solid;
+}
+
+
+.buys{
+    margin-top: 50%;
+    height: 300px;
+    padding-bottom: 8%;
+    padding-top: 8%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(238, 177, 64);
+}
+
+@media screen and (max-width:768px) {
+
+    .vol{
+        margin-top: 45%;
+    }
+
+    .vol h1{
+        font-size: 25px;
+    }
+
+    .vol p{
+       
+        font-size: 12px;
+    }
+
+
+    .row .vol2{
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    
+    .row .vol2 .group{
+        width: 65%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    
+    
+    .row .vol2 .group4 .text{
+        width: 70%;
+    }
+    
+    .row .vol2 .group4 button{
+        float: left;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .vol{
+        margin-top: 75%;
+    }
+
+    .vol h1{
+        font-size: 20px;
+    }
+
+    .vol p{
+        font-size: 14px;
+    }
+
+    .row .vol2{
+        min-height: 1px;
+        padding-left: 10px;
+        font-size: 10px;
+    }
+    
+    .row .vol2 .group{
+        width: 85%;
+        min-height: 1px;
+        /* padding-right: 15px; */
+        padding-left: 10px;
+    }
+
+    .row .vol2 .group label{
+        font-size: 15px;
+    }
+    .row .vol2 .group input{
+        font-size: 12px;
+    }
+
+    .row .vol2 .form-group .bro{
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+    .row .vol2 .form-group .form .form1 .check{
+        display: flex;
+        flex-direction: row;
+        color: #222;
+        font-weight: 500;
+        margin-bottom: 0;
+        font-size: 14px;
+    }
+
+    
+.row .vol2 .group4 label{
+    color: #222;
+    font-weight: 500;
+    display: inline-block;
+    margin-bottom: .5rem;
+    font-size: 18px;
+}
+
+.row .vol2 .group4 .text{
+    width: 90%;
+    font-size: 16px;
+    height: 100px;
+}
+    
+.row .vol2 .group4 button{
+    padding-left: 12px;
+    padding-right: 12px;
+    float: left;
+   
+}
+    
+}
+
+/* volunteer page ends here */
+
